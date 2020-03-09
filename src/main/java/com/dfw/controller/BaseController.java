@@ -12,9 +12,6 @@ import javax.servlet.http.HttpSession;
 /**
  * @ClassName: BaseController
  * @Description: 控制器的基类，所有控制器必须继承此类
- * @author: xw
- * @date 2020/2/25 18:19
- * @Version: 1.0
  **/
 public class BaseController {
 

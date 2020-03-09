@@ -25,9 +25,6 @@ import java.util.regex.Pattern;
 /**
  * @ClassName: FileStoreController
  * @Description: 文件仓库控制器
- * @author: xw
- * @date 2020/2/6 16:04
- * @Version: 1.0
  **/
 @Controller
 public class FileStoreController extends BaseController {
@@ -35,8 +32,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 网盘的文件上传
-     * @Author xw
-     * @Date 23:10 2020/2/10
      * @Param [files]
      * @return java.util.Map<java.lang.String,java.lang.Object>
      **/
@@ -119,9 +114,7 @@ public class FileStoreController extends BaseController {
     }
 
     /**
-     * @Description 网盘的文件下载 
-     * @Author xw
-     * @Date 23:13 2020/2/10
+     * @Description 网盘的文件下载
      * @Param [fId]
      * @return void
      **/
@@ -154,8 +147,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 删除文件
-     * @Author xw
-     * @Date 23:14 2020/2/10
      * @Param [fId, folder]
      * @return java.lang.String
      **/
@@ -179,8 +170,6 @@ public class FileStoreController extends BaseController {
     
     /**
      * @Description 删除文件夹并清空文件
-     * @Author xw
-     * @Date 15:22 2020/2/12
      * @Param [fId]
      * @return java.lang.String
      **/
@@ -194,8 +183,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 迭代删除文件夹里面的所有文件和子文件夹
-     * @Author xw
-     * @Date 9:17 2020/2/29
      * @Param [folder]
      * @return void
      **/
@@ -224,8 +211,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 添加文件夹
-     * @Author xw
-     * @Date 23:16 2020/2/10
      * @Param [folder, map]
      * @return java.lang.String
      **/
@@ -258,8 +243,6 @@ public class FileStoreController extends BaseController {
     
     /**
      * @Description 重命名文件夹
-     * @Author xw
-     * @Date 23:18 2020/2/10
      * @Param [folder, map]
      * @return java.lang.String
      **/
@@ -285,8 +268,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 重命名文件
-     * @Author xw
-     * @Date 12:47 2020/2/12
      * @Param [file, map]
      * @return java.lang.String
      **/
@@ -313,9 +294,7 @@ public class FileStoreController extends BaseController {
     }
 
     /**
-     * @Description 获得二维码 
-     * @Author xw
-     * @Date 15:20 2020/2/12
+     * @Description 获得二维码
      * @Param [id, url]
      * @return java.util.Map<java.lang.String,java.lang.Object>
      **/
@@ -353,8 +332,6 @@ public class FileStoreController extends BaseController {
     
     /**
      * @Description 分享文件
-     * @Author xw
-     * @Date 14:23 2020/2/12
      * @Param [fId]
      * @return void
      **/
@@ -401,8 +378,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 根据文件的后缀名获得对应的类型
-     * @Author xw
-     * @Date 23:20 2020/2/10
      * @Param [type]
      * @return int 1:文本类型   2:图像类型  3:视频类型  4:音乐类型  5:其他类型
      **/
@@ -427,8 +402,6 @@ public class FileStoreController extends BaseController {
     
     /**
      * @Description 正则验证文件名是否合法 [汉字,字符,数字,下划线,英文句号,横线]
-     * @Author xw
-     * @Date 23:22 2020/2/10
      * @Param [target]
      * @return boolean
      **/
@@ -441,8 +414,6 @@ public class FileStoreController extends BaseController {
 
     /**
      * @Description 判断当前浏览器是否为ie
-     * @Author xw
-     * @Date 22:39 2020/3/5
      * @Param [request]
      * @return boolean
      **/

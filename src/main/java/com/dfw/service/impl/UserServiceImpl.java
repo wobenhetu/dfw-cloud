@@ -6,13 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
- /**
- * @ClassName UserServiceImpl
- * @Description (User)表服务实现类
- * @author 莫提
- * @date 2020-02-25 17:19:31
- * @Version 1.0
- **/
  @Service
 public class UserServiceImpl extends BaseService implements UserService {
 

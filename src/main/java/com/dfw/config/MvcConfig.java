@@ -25,8 +25,6 @@ public class MvcConfig implements WebMvcConfigurer {
 
     /**
      * @Description 注册视图控制器
-     * @Author xw
-     * @Date 15:11 2020/2/26
      * @Param [registry]
      * @return void
      **/
@@ -37,8 +35,6 @@ public class MvcConfig implements WebMvcConfigurer {
 
     /**
      * @Description  注册登录拦截器 addPathPatterns() -> 拦截的请求  excludePathPatterns -> 不拦截的请求
-     * @Author xw
-     * @Date 15:10 2020/2/26
      * @Param [registry]
      * @return void
      **/

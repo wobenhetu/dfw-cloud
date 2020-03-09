@@ -7,9 +7,6 @@ import lombok.Data;
 
 /**
  * (FileStore)文件仓库实体类
- *
- * @author 莫提
- * @since 2020-02-25 17:19:04
  */
 @AllArgsConstructor
 @Data

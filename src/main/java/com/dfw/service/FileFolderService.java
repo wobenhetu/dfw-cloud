@@ -7,11 +7,7 @@ import com.dfw.entity.MyFile;
 import java.util.List;
 
 /**
- * @Description 文件夹业务层接口
- * @Author xw
- * @Date 15:21 2020/2/26
- * @Param  * @param null
- * @return
+文件夹业务层接口
  **/
 public interface FileFolderService{
 

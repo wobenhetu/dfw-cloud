@@ -9,9 +9,6 @@ import lombok.Data;
 
 /**
  * (User)用户实体类
- *
- * @author 莫提
- * @since 2020-02-25 17:19:04
  */
 @AllArgsConstructor
 @Data

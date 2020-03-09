@@ -8,11 +8,7 @@ import org.apache.commons.net.ftp.FTPReply;
 import java.io.*;
 
 /**
- * @ClassName: FtpUtil
- * @Description: FTP工具类
- * @author: xw
- * @date 2020/2/5 10:41
- * @Version: 1.0
+FTP工具类
  **/
 public class FtpUtil {
     /**

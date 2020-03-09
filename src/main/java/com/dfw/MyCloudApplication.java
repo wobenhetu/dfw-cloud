@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MotiCloudApplication {
+public class MyCloudApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MotiCloudApplication.class, args);
+        SpringApplication.run(MyCloudApplication.class, args);
     }
 }

@@ -17,11 +17,7 @@ import java.io.IOException;
 import java.util.Date;
 
 /**
- * @Description 登录控制器
- * @Author xw
- * @Date 18:19 2020/2/25
- * @Param  * @param null
- * @return
+登录控制器
  **/
 @Controller
 public class LoginController extends BaseController {
@@ -30,8 +26,6 @@ public class LoginController extends BaseController {
 
     /**
      * @Description 免登陆用户入口，用于本地开发测试，上线运营为了安全请删除此方法
-     * @Author xw
-     * @Date 15:17 2020/2/26
      * @Param []
      * @return java.lang.String
      **/
@@ -45,8 +39,6 @@ public class LoginController extends BaseController {
 
     /**
      * @Description 请求QQ登录
-     * @Author xw
-     * @Date 18:27 2020/2/25
      * @Param []
      * @return void
      **/
@@ -63,8 +55,6 @@ public class LoginController extends BaseController {
 
     /**
      * @Description QQ登录回调地址
-     * @Author xw
-     * @Date 18:27 2020/2/25
      * @Param []
      * @return java.lang.String
      **/
@@ -131,8 +121,6 @@ public class LoginController extends BaseController {
 
     /**
      * @Description 处理掉QQ网名中的特殊表情
-     * @Author xw
-     * @Date 18:26 2020/2/25
      * @Param [str]
      * @return java.lang.String 返回处理之后的网名
      **/
@@ -149,8 +137,6 @@ public class LoginController extends BaseController {
 
     /**
      * @Description 退出登录，清空session
-     * @Author xw
-     * @Date 18:26 2020/2/25
      * @Param []
      * @return java.lang.String
      **/

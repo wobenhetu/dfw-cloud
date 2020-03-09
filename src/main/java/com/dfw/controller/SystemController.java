@@ -16,9 +16,6 @@ import java.util.Map;
 /**
  * @ClassName: SystemController
  * @Description: 系统页面跳转控制器
- * @author: xw
- * @date 2020/2/25 22:02
- * @Version: 1.0
  **/
 @Controller
 public class SystemController extends BaseController {

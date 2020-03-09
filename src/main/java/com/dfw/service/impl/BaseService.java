@@ -3,13 +3,7 @@ package com.dfw.service.impl;
 import com.dfw.mapper.*;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * @ClassName: BaseService
- * @Description: TODO
- * @author: xw
- * @date 2020/2/25 17:19
- * @Version: 1.0
- **/
+
 public class BaseService {
 
     @Autowired

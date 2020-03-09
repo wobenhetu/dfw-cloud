@@ -8,10 +8,6 @@ import java.io.Serializable;
 /**
  * @Description 优化缓存策略
  * 序列化要缓存的对象，否则设置  copyOnRead="true" copyOnWrite="true" 缓存对象的时候可能报序列化错误
- * @Author xw
- * @Date 9:23 2020/2/29
- * @Param  * @param null
- * @return
  **/
 public class MyCopyStrategy implements ReadWriteCopyStrategy<Element> {
     @Override

@@ -7,14 +7,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
-* @ClassName: MyFileServiceImpl
-* @Description: TODO
-* @author: xw
-* @date 2020/2/8 22:49
-* @Version: 1.0
-**/
-
 @Service
 public class MyFileServiceImpl extends BaseService implements MyFileService{
 

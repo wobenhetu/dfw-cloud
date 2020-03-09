@@ -7,11 +7,7 @@ import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 
 /**
- * @ClassName: FileStoreServiceImpl
- * @Description: 文件仓库业务层接口实现类
- * @author: xw
- * @date 2020/1/26 22:16
- * @Version: 1.0
+ 文件仓库业务层接口实现类
  **/
 @Service
 public class FileStoreServiceImpl extends BaseService implements FileStoreService {

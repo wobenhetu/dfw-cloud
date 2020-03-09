@@ -19,8 +19,6 @@ public class DruidConfig {
 
     /**
      * @Description  绑定配置文件中的相关属性
-     * @Author xw
-     * @Date 17:34 2020/2/25
      * @Param  * @param null
      * @return
      **/
@@ -32,8 +30,6 @@ public class DruidConfig {
 
     /**
      * @Description  配置Druid的监控,配置一个管理后台的Servlet
-     * @Author xw
-     * @Date 17:35 2020/2/25
      * @Param []
      * @return org.springframework.boot.web.servlet.ServletRegistrationBean
      **/
@@ -51,8 +47,6 @@ public class DruidConfig {
 
     /**
      * @Description  配置一个web监控的filter
-     * @Author xw
-     * @Date 17:35 2020/2/25
      * @Param []
      * @return org.springframework.boot.web.servlet.FilterRegistrationBean
      **/

@@ -7,9 +7,6 @@ import java.io.Serializable;
 /**
  * @ClassName: FileStoreStatistics
  * @Description: 文件仓库数据统计类
- * @author: xw
- * @date 2020/2/10 21:40
- * @Version: 1.0
  **/
 @Builder
 @Getter
